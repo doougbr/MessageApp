@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MessageAppPremium</string>
+    <string name="app_version">This is the premium version!</string>
+</resources>

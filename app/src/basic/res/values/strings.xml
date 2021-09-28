@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MessageAppBasic</string>
+    <string name="app_version">This is the basic version!</string>
+</resources>
