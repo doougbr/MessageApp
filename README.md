@@ -1,6 +1,6 @@
 # MessageApp
 
-A basic messaging app for android that uses MVVM and the following libraries:
+A basic messaging app for android that uses MVVM, material design and the following libraries:
 
   - Android Jetpack libraries (room, fragments, navigation, constraintlayout)
   - Glide for images
