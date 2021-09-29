@@ -1,4 +1,4 @@
-package com.example.messageapp
+package com.example.messageapp.messages
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
+import com.example.messageapp.R
 import com.example.messageapp.databinding.FragmentMessagesListBinding
 
 class MessagesList : Fragment(R.layout.fragment_messages_list) {
@@ -23,7 +24,6 @@ class MessagesList : Fragment(R.layout.fragment_messages_list) {
         return binding.root
     }
 
-/*
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -32,13 +32,13 @@ class MessagesList : Fragment(R.layout.fragment_messages_list) {
             "Bom dia",
             "Boa tarde",
             "Boa noite",
-            "Tchau")
-        val listView = binding.listViewMessages
-        val adapter = activity?.let { ArrayAdapter(it.baseContext, android.R.layout.simple_list_item_1, messagesList) }
-        listView.adapter = adapter
-        adapter?.notifyDataSetChanged()
+            "Tchau"
+        )
+        val listViewMessages = binding.listViewMessages
+        val adapterMessages = activity?.let { ArrayAdapter(it.baseContext, android.R.layout.simple_list_item_1, messagesList) }
+        listViewMessages.adapter = adapterMessages
+        adapterMessages?.notifyDataSetChanged()
     }
-*/
 
     // to avoid memory leaks
     override fun onDestroy() {

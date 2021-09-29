@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MessageApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="new_message">New message</string>
     <string name="new_contact">New contact</string>
+    <string name="no_contacts">You have no contacts. \n Why don\'t you add your first one?</string>
+    <string name="important_contact">Important?</string>
 </resources>

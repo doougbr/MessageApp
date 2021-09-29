@@ -1,11 +1,11 @@
-package com.example.messageapp.model
+package com.example.messageapp.contacts.model
 
 
 data class Contacts(
     val name: String,
     val nickname: String,
-    val photo: String,
+    val photoUrl: String?,
     val number: Long,
     val category: String,
-    val important: Boolean
+    val important: Boolean = false
 )

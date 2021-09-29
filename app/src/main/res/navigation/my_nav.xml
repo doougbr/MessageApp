@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/messagesList"
-        android:name="com.example.messageapp.MessagesList"
+        android:name="com.example.messageapp.messages.MessagesList"
         android:label="fragment_messages_list"
         tools:layout="@layout/fragment_messages_list" />
     <fragment
         android:id="@+id/contacts2"
-        android:name="com.example.messageapp.Contacts"
+        android:name="com.example.messageapp.contacts.view.Contacts"
         android:label="fragment_contacts"
         tools:layout="@layout/fragment_contacts" />
 </navigation>
